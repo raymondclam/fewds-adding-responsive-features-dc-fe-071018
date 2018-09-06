@@ -1,0 +1,31 @@
+/*======= ======= ======= breakpoint ======= ======= =======*/
+@media only screen and (max-width: 900px) {
+    body {
+        text: 85%;
+        #logo h1: 35px;
+        #logo h2: 2.2em;
+        #social: 72px;
+        .col-1 {
+          float: left;
+          width: 32%;
+        }
+
+        .col-2 {
+          float: left;
+          width: 66%;
+        }
+
+        .col-3 p {
+          -moz-column-rule: 1px dotted #ccc;
+          -webkit-column-rule: 1px dotted #ccc;
+          column-rule: 1px dotted #ccc;
+          -moz-column-gap: 1.5em;
+          -webkit-column-gap: 1.5em;
+          column-gap: 1.5em;
+          -moz-column-count: 3;
+          -webkit-column-count: 3;
+          column-count: 3;
+        }
+
+      }
+    }
